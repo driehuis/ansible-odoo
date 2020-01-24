@@ -38,6 +38,7 @@ odoo_debian_packages:
     - python3-vobject
     - python3-werkzeug
     - python3-xlsxwriter
+    - python3-pip
 
 odoo_nodejs_apt_package: "nodejs=6.*"
 odoo_nodejs_apt_repo: "node_6.x"
@@ -64,7 +65,7 @@ odoo_pip_build_dependencies:
     - libldap2-dev
     - libsasl2-dev
     - libopenjp2-7-dev
-    - libjpeg62-turbo-dev
+    - libjpeg-turbo8-dev
     - libtiff5-dev
     - libfreetype6-dev
     - liblcms2-dev
@@ -81,7 +82,7 @@ odoo_buildout_build_dependencies:
     - libldap2-dev
     - libsasl2-dev
     - libopenjp2-7-dev
-    - libjpeg62-turbo-dev
+    - libjpeg-turbo8-dev
     - libtiff5-dev
     - libfreetype6-dev
     - liblcms2-dev
@@ -100,4 +101,4 @@ odoo_wkhtmltox_depends:
     - libx11-6
     - libxext6
     - libxrender1
-    - libjpeg62-turbo
+    - libjpeg-turbo8
