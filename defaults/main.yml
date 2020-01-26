@@ -19,7 +19,7 @@ odoo_rootdir: "{{ odoo_install_type == 'buildout' and '/home/'+odoo_user+'/odoo/
 
 # Project repository to deploy
 odoo_repo_type: git     # git or hg
-odoo_repo_url: "{{ odoo_install_type == 'buildout' and 'https://github.com/osiell/odoo-buildout-example.git' or 'https://github.com/odoo/odoo.git' }}"
+odoo_repo_url: "{{ odoo_install_type == 'buildout' and 'https://github.com/driehuis/odoo-buildout-example.git' or 'https://github.com/odoo/odoo.git' }}"
 odoo_repo_dest: "{{ odoo_install_type == 'buildout' and odoo_workdir or odoo_rootdir }}"
 odoo_repo_rev: "{{ odoo_version }}"
 odoo_repo_update: True  # Update the working copy or not. This option is
